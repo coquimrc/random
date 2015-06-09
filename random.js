@@ -1,7 +1,8 @@
 var numero= Math.random();
-if (numero<= 0.5) {
-  console.log('\n' + numero + ' menor que 0.5');
+var str ='MAYOR que 0.5';
 
-}else {
-.console.log('\n' + numero + 'mayor que 0.5');
+if (numero <= 0.5) {
+  str='MENOR que 0.5';
+
 }
+console.log('\n' + numero + str + '\n');
